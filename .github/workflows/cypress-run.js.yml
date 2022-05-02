@@ -22,8 +22,4 @@ jobs:
         with:
           name: cypress-screenshots
           path: tests/cypress/screenshots
-      - uses: actions/upload-artifact@v1
-        if: always()
-        with:
-          name: cypress-videos
-          path: tests/cypress/videos
+
